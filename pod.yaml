@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crashing-app-pod
+  labels:
+    app: crashing-app
+spec:
+  containers:
+    - name: app
+      image: crashing-app:1.0
+      ports:
+        - containerPort: 8080
