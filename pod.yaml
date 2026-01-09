@@ -10,3 +10,8 @@ spec:
       image: crashing-app:1.0
       ports:
         - containerPort: 8080
+      envFrom:
+        - configMapRef:
+            name: crashing-app-config
+        - secretRef:
+            name: crashing-app-secret
