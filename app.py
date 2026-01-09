@@ -11,7 +11,7 @@ def home():
     return jsonify({
         "status": "ok",
         "app_mode": app_mode,
-        "api_key_present": api_key != "MISSING"
+        "api_key_present": api_key
     })
 
 @app.route("/crash")
