@@ -1,5 +1,5 @@
 IMAGE_NAME = crashing-app
-IMAGE_TAG = 1.0
+IMAGE_TAG = 1.1
 PORT = 8080
 
 .PHONY: build run rebuild clean logs

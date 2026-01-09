@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: app
-      image: crashing-app:1.0
+      image: crashing-app:1.1
       ports:
         - containerPort: 8080
       envFrom:
