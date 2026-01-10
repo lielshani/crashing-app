@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: crashing-app-config
-data:
-  APP_MODE: "Debug"
